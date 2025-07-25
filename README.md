@@ -127,7 +127,7 @@ A full-featured **web-based restaurant management system** built using **HTML, C
 ## 📷 Screenshots
 
 ### 🔹 Login
-![Dashboard Screenshot](screenshots/login.png)
+![Dashboard Screenshot](screenshots/login.PNG)
 
 ### 🔹 Dashboard
 ![Dashboard Screenshot](screenshots/home.png)
