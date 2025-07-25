@@ -130,16 +130,16 @@ A full-featured **web-based restaurant management system** built using **HTML, C
 ![Dashboard Screenshot](screenshots/login.PNG)
 
 ### 🔹 Dashboard
-![Dashboard Screenshot](screenshots/home.png)
+![Dashboard Screenshot](screenshots/home.PNG)
 
 ### 🔹 Menu 
-![Reservation Screenshot](screenshots/menu.png)
+![Reservation Screenshot](screenshots/menu.PNG)
 
 ### 🔹 Orders Page
-![Reservation Screenshot](screenshots/orders.png)
+![Reservation Screenshot](screenshots/orders.PNG)
 
 ### 🔹 Tables
-![Reservation Screenshot](screenshots/list.png)
+![Reservation Screenshot](screenshots/list.PNG)
 
 ---
 
