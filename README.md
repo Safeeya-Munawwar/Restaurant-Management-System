@@ -1,63 +1,106 @@
-# Restaurant Management System
+# 🍽️ Restaurant Management System
 
-This project is a web-based restaurant management system developed using HTML, JavaScript, CSS, PHP, and MySQL (phpMyAdmin) using XAMPP. The system helps manage reservations, orders, payments, and employee data efficiently.
+A full-featured **web-based restaurant management system** built using **HTML, CSS, JavaScript, PHP, and MySQL**. This system efficiently handles **reservations**, **orders**, **payments**, **menu items**, and **employee data**. Developed as a group project for the **ATI - Kandy - SLIATE - 2022 Batch**.
 
-![Restaurant Management System](./screenshots/ss.png)
+---
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Database Structure](#database-structure)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
 
-## Features
+---
 
-- Manage table reservations
-- Handle customer orders
-- Process payments
-- Manage menu items
-- Employee management
+## ✅ Features
 
-## Technologies Used
+- Manage table reservations with special occasion notes
+- Handle customer orders by table
+- Process payments (grand total, method)
+- Manage menu items and prices
+- Employee management (salary, hours, job title)
+- Admin and user login panels
 
-- HTML
-- CSS
-- JavaScript
-- PHP
-- MySQL (phpMyAdmin)
-- XAMPP
+---
 
-## Database Structure
+## 🛠️ Technologies Used
 
-### Databases and Tables
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL (phpMyAdmin)
+- **Local Server:** XAMPP
 
-1. **adminemployeenew**
-   - Table: `adminemployeenew`
-     - Columns: `employee_id`, `full_name`, `date_of_birth`, `address`, `phone`, `email`, `job_title`, `hours_of_work`, `salary`
+---
 
-2. **menunew**
-   - Table: `menunew`
-     - Columns: `item_id`, `item_category`, `item_name`, `item_price`
+## 🗃️ Database Structure
 
-3. **ordersnew**
-   - Table: `ordersnew`
-     - Columns: `reservation_id`, `order_id`, `item_ordered_name`, `quantity`, `amount`, `total_amount`
+### 1. `adminemployeenew`
+| Column           | Description          |
+|------------------|----------------------|
+| employee_id      | Employee ID          |
+| full_name        | Full Name            |
+| date_of_birth    | Date of Birth        |
+| address          | Address              |
+| phone            | Phone Number         |
+| email            | Email Address        |
+| job_title        | Job Title            |
+| hours_of_work    | Working Hours        |
+| salary           | Salary               |
 
-4. **paymentsnew**
-   - Table: `paymentsnew`
-     - Columns: `reservation_id`, `table_id`, `grandtotal_amount`, `payment_method`
+### 2. `menunew`
+| Column         | Description   |
+|----------------|---------------|
+| item_id        | Menu Item ID  |
+| item_category  | Category      |
+| item_name      | Item Name     |
+| item_price     | Price         |
 
-5. **reservationnew**
-   - Table: `reservationnew`
-     - Columns: `first_name`, `last_name`, `numberofguests`, `email`, `phone`, `date`, `time`, `table`, `specialoccasion`
+### 3. `ordersnew`
+| Column            | Description           |
+|-------------------|-----------------------|
+| reservation_id    | Reservation Reference |
+| order_id          | Order ID              |
+| item_ordered_name | Item Name             |
+| quantity          | Quantity              |
+| amount            | Amount per Item       |
+| total_amount      | Total for Order       |
 
-6. **tablesnew**
-   - Table: `tablesnew`
-     - Columns: `id`, `table_id`, `table`, `status`
+### 4. `paymentsnew`
+| Column            | Description           |
+|-------------------|-----------------------|
+| reservation_id    | Reservation Reference |
+| table_id          | Table Reference       |
+| grandtotal_amount | Total Payment         |
+| payment_method    | Cash / Card / Online  |
 
-## Installation
+### 5. `reservationnew`
+| Column           | Description              |
+|------------------|--------------------------|
+| first_name       | Customer First Name      |
+| last_name        | Last Name                |
+| numberofguests   | Number of Guests         |
+| email            | Customer Email           |
+| phone            | Contact Number           |
+| date             | Reservation Date         |
+| time             | Reservation Time         |
+| table            | Table Number             |
+| specialoccasion  | Occasion Info (if any)   |
+
+### 6. `tablesnew`
+| Column     | Description        |
+|------------|--------------------|
+| id         | Table Row ID       |
+| table_id   | Table Number       |
+| table      | Table Label        |
+| status     | Availability Status|
+
+---
+
+## ⚙️ Installation
 
 1. Clone the repository:
    - git clone https://github.com/J33WAKASUPUN/Restaurant Management 
@@ -78,17 +121,29 @@ This project is a web-based restaurant management system developed using HTML, J
       
     - Import the SQL files provided in the database directory of this 
       repository into their respective databases.
-## Usage
 
-1. Open your web browser and navigate to http://localhost/Login interface.php.
+---
 
-2. - Login user name and password - Jeewaka, 15611
-   - Adimn login user name and password - ADMIN, 123456789
+## 📷 Screenshots
 
-3. Use the system to manage reservations, orders, payments, and employee 
-   data.
+### 🔹 Login
+![Dashboard Screenshot](screenshots/login.png)
 
-## Contact
+### 🔹 Dashboard
+![Dashboard Screenshot](screenshots/home.png)
 
-   Jeewaka - supunprabodha789@gmail.com     
+### 🔹 Menu 
+![Reservation Screenshot](screenshots/menu.png)
+
+### 🔹 Orders Page
+![Reservation Screenshot](screenshots/orders.png)
+
+### 🔹 Tables
+![Reservation Screenshot](screenshots/list.png)
+
+---
+
+## 📩 Contact
+
+   Safeeya Munawwar - shafiyasha0036@gmail.com     
 
