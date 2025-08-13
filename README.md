@@ -162,4 +162,4 @@ A full-featured **web-based restaurant management system** built using **HTML, C
 
 ---
 
-© 2025 Edu Certify | Built with ❤️ using HTML, CSS, JavaScript, PHP, and MySQL
+© 2024 Unimo Family Friendly Restaurant | Built with ❤️ using HTML, CSS, JavaScript, PHP, and MySQL
