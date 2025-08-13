@@ -124,6 +124,13 @@ A full-featured **web-based restaurant management system** built using **HTML, C
 
 ---
 
+## Project Report
+```bash
+https://github.com/Shafiya-Munawwar0036/Library_Management_System/blob/main/Library%20Management%20System%20Project%20Report.pdf
+```
+
+---
+
 ## 📷 Screenshots
 
 ### 🔹 Login
