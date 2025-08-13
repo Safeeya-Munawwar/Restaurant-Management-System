@@ -128,6 +128,7 @@ A full-featured **web-based restaurant management system** built using **HTML, C
 ```bash
 https://github.com/Safeeya-Munawwa/Restaurant-Management-System/blob/main/Unimo%20Project%20Report.pdf
 ```
+[View the Project Report](https://github.com/Safeeya-Munawwar/Restaurant-Management-System/blob/main/Unimo%20Project%20Report.pdf)
 
 ---
 
